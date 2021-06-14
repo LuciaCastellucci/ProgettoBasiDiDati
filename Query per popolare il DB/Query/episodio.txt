@@ -1,0 +1,441 @@
+/*L ALIENISTA*/
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0101','Il ragazzo sul ponte', '00:50:00', 'VM16', 1, 2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0102','Omicidi Nascosti', '00:50:00','VM16',2,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0103','Sorriso d argento', '00:50:00','VM16',3,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0104','Pensieri diabolici', '00:50:00','VM16',4,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0105','Lo storno di Hildebrandt', '00:50:00','VM16',5,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0106','Ascensione', '00:50:00','VM16',6,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0107','Un cospicuo numero di sant uomini', '00:50:00','VM16',7,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0108','Psychopathia sexualis', '00:50:00','VM16',8,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0109','Requiem', '00:50:00','VM16',9,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0110','Castello nel cielo', '00:50:00','VM16',10,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0201','Ex Ore Infantium', '00:50:00','VM16',1,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0202','Qualcosa di malvagio', '00:50:00','VM16',2,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0203','Labirinto', '00:50:00','VM16',3,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0204','Gabbia dorata', '00:50:00','VM16',4,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0205','Nel ventre della bestia', '00:50:00','VM16',5,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0206','Memento mori', '00:50:00','VM16',6,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0207','Ultima uscita per Brooklyn', '00:50:00','VM16',7,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('A0208','Angeli migliori', '00:50:00','VM16',8,2020)
+
+/*LUPIN*/
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('B0101','Capitolo 1', '00:50:00','BA',1,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('B0102','Capitolo 2', '00:50:00','BA',2,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('B0103','Capitolo 3', '00:50:00','BA',3,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('B0104','Capitolo ', '00:50:00','BA',4,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('B0105','Capitolo 5', '00:50:00','BA',5,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('B0106','Capitolo 6', '00:50:00','BA',6,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('B0107','Capitolo 7', '00:50:00','BA',7,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('B0108','Capitolo 8', '00:50:00','BA',8,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('B0109','Capitolo 9', '00:50:00','BA',9,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('B0110','Capitolo 10', '00:50:00','BA',10,2021)
+
+/*YOU*/
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0101','Pilot', '00:50:00','VM14',1,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0102','L ultimo tipo gentile di New York', '00:50:00','VM14',2,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0103','Forse', '00:50:00','VM14',3,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0104','Il capitano', '00:50:00','VM14',4,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0105','Vivere col nemico', '00:50:00','VM14',5,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0106','Amour fou', '00:50:00','VM14',6,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0107','Bella Torta', '00:50:00','VM14',7,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0108','Sono tuo, baby', '00:50:00','VM14',8,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0109','Candace', '00:50:00','VM14',9,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0110','Il castello di Barbablu', '00:50:00','VM14',10,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C02001','Un nuovo inizio', '00:50:00','VM14',1,2019)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0202','Solo la punta', '00:50:00','VM14',2,2019)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0203','A cosa servono gli amici?', '00:50:00','VM14',3,2019)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0204','Il buono, il brutto, Hendy', '00:50:00','VM14',4,2019)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0205','Buon wellness weekend, Joe!', '00:50:00','VM14',5,2019)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0206','Addio, mia micia', '00:50:00','VM14',6,2019)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0207','Crisi da ex', '00:50:00','VM14',7,2019)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0208','Paura e delirio a Beverly Hills', '00:50:00','VM14',8,2019)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0209','Joe l investigatore', '00:50:00','VM14',9,2019)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('C0210','La vera Love', '00:50:00','VM14',10,2019)
+
+/*THE HOLLOW*/
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('D0101','La stanza', '00:25:00','T',1,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('D0102','Il deserto', '00:25:00','T',2,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('D0103','Apocalisse', '00:25:00','T',3,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('D0104','Il faro', '00:25:00','T',4,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('D0105','Ishibo', '00:25:00','T',5,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('D0106','Morti viventi', '00:25:00','T',6,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('D0107','L indovinello', '00:25:00','T',7,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('D0108','Ghiaccio', '00:25:00','T',8,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('D0109','Bozzolo', '00:25:00','T',9,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('D0110','Colrath', '00:25:00','T',10,2018)
+
+/*PEAKY PLINDERS*/
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0101','Episodio 1', '01:00:00','T',1,2013)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0102','Episodio 2', '01:00:00','T',2,2013)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0103','Episodio 3', '01:00:00','T',3,2013)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0104','Episodio 4', '01:00:00','T',4,2013)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0105','Episodio 5', '01:00:00','T',5,2013)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0106','Episodio 6', '01:00:00','T',6,2013)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0201','Episodio 1', '01:00:00','T',1,2014)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0202','Episodio 2', '01:00:00','T',2,2014)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0203','Episodio 3', '01:00:00','T',3,2014)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0204','Episodio 4', '01:00:00','T',4,2014)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0205','Episodio 5', '01:00:00','T',5,2014)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0206','Episodio 6', '01:00:00','T',6,2014)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0301','Episodio 1', '01:00:00','T',1,2016)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0302','Episodio 2', '01:00:00','T',2,2016)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0303','Episodio 3', '01:00:00','T',3,2016)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0304','Episodio 4', '01:00:00','T',4,2016)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0305','Episodio 5', '01:00:00','T',5,2016)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0306','Episodio 6', '01:00:00','T',6,2016)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0401','Episodio 1', '01:00:00','T',1,2017)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0402','Episodio 2', '01:00:00','T',2,2017)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0403','Episodio 3', '01:00:00','T',3,2017)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0404','Episodio 4', '01:00:00','T',4,2017)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0405','Episodio 5', '01:00:00','T',5,2017)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('E0406','Episodio 6', '01:00:00','T',6,2017)
+
+/*THE UNDOOING*/
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('F0101','Tutto si sgretola', '00:55:00','VM14',1,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('F0102','Senza lasciare traccia', '00:55:00','VM14',2,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('F0103','Non nuocere', '00:55:00','VM14',3,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('F0104','Non vedere il male', '00:55:00','VM14',4,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('F0105','Processo con furia', '00:55:00','VM14',5,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('F0106','Maledetta verità', '00:55:00','VM14',6,2020)
+
+/*SCOOBY-DOO, DOVE SEI TU?*/
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0101','Che notte per un cavaliere', '00:30:00','T',1,1969)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0102','L isola streagata', '00:30:00','T',2,1969)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0103','L eremita della spiaggia', '00:30:00','T',3,1969)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0104','Oro nero', '00:30:00','T',4,1969)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0105','Mostra canina', '00:30:00','T',5,1969)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0106','Che stregoneria è questa?', '00:30:00','T',6,1969)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0107','Mai scimmiottare un uomo scimmia', '00:30:00','T',7,1969)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0108','Il mistero di Fiabilandia', '00:30:00','T',8,1969)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0109','Il fantasma del teatro', '00:30:00','T',9,1969)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0110','Trambusto nel tendone del circo', '00:30:00','T',10,1969)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0111','Visita al castello', '00:30:00','T',11,1969)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0112','Il segreto del Faraone', '00:30:00','T',12,1969)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0113','La strega della palude', '00:30:00','T',13,1969)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0114','L astronave misteriosa', '00:30:00','T',14,1969)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0115','Il vascello fantasma', '00:30:00','T',15,1969)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0116','Una notte di terrore', '00:30:00','T',16,1969)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('G0117','Il fantasma dei ghiacci', '00:30:00','T',17,1969)
+
+/*BODYGUARD*/
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('H0101','Episodio 1', '01:00:00','VM12',1,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('H0102','Episodio 2', '01:00:00','VM12',2,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('H0103','Episodio 3', '01:00:00','VM12',3,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('H0104','Episodio 4', '01:00:00','VM12',4,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('H0105','Episodio 5', '01:00:00','VM12',5,2018)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('H0106','Episodio 6', '01:00:00','VM12',6,2018)
+
+/*PANIC*/
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('I0101','Panic ', '0:40:00','VM12',1,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('I0102','Grandi altezze ', '0:40:00','VM12',2,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('I0103','Trappole ', '0:40:00','VM12',3,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('I0104','Fuga ', '0:40:00','VM12',4,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('I0105','Fantasmi ', '0:40:00','VM12',5,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('I0106','Vicolo Cieco ', '0:40:00','VM12',6,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('I0107','Fiducia ', '0:40:00','VM12',7,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('I0108','Ritorni ', '0:40:00','VM12',8,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('I0109','Gabbie ', '0:40:00','VM12',9,2021)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('I0110','Torneo ', '0:40:00','VM12',10,2021)
+
+/*EMILY IN PARIS*/
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('J0101','Emily in Paris', '0:30:00','T',1,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('J0102','Masculin feminin', '0:30:00','T',2,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('J0103','Sexy o sessista?', '0:30:00','T',3,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('J0104','È soltanto un bacio', '0:30:00','T',4,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('J0105','Faux amis', '0:30:00','T',5,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('J0106','Ringarde', '0:30:00','T',6,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('J0107','Finale alla francese', '0:30:00','T',7,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('J0108','Affari di famiglia', '0:30:00','T',8,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('J0109','Un asta americana a Parigi', '0:30:00','T',9,2020)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('J0110','Adieu, sfilata!', '0:30:00','T',10,2020)
+
+/*SHERLOCK*/
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('K0101','Uno studio in rosa', '01:30:00','BA',1,2010)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('K0102','Il banchiere cieco', '01:30:00','BA',2,2010)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('K0103','Il grande gioco', '01:30:00','BA',3,2010)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('K0201','Scandalo a Belgravia', '01:30:00','BA',1,2012)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('K0202','I mastini di Baskerville', '01:30:00','BA',2,2012)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('K0203','Le cascate di Reinbach', '01:30:00','BA',3,2012)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('K0301','La cassa vuota', '01:30:00','BA',1,2014)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('K0302','Il segno dei tre', '01:30:00','BA',2,2014)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('K0303','L ultimo giuramento', '01:30:00','BA',3,2014)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('K0401','Le sei Thatcher', '01:30:00','BA',1,2017)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('K0402','Il detective morente', '01:30:00','BA',2,2017)
+
+INSERT INTO EPISODIO (codEpisodio, titolo, durataComplessiva, vistoCensura, numero, annoUscita)
+VALUES('K0403','Il problema finale', '01:30:00','BA',3,2017)

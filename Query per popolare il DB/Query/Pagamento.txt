@@ -1,0 +1,164 @@
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('12FRT574',01/01/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('12FRT574',01/02/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('12FRT574',01/03/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('12FRT574',01/04/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('12FRT574',01/05/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('12FRT575',02/01/2020,30)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('58ABT576',03/01/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('58ABT576',03/02/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('58ABT577',12/07/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('58ABT578',05/01/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('58ABT578',05/02/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('58ABT578',05/03/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('58ABT579',06/01/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('58ABT580',17/10/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('58ABT580',17/11/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('12FRT581',08/02/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('18SRT582',09/02/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('18SRT582',09/03/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('18SRT582',09/04/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('18SRT582',09/05/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('18SRT583',10/02/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('18SRT584',11/02/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('15FRT585',12/02/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('15FRT585',12/03/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13FRT586',13/01/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13FRT587',14/01/2020,30)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13FRT587',14/02/2020,30)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13FRT587',14/03/2020,30)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13FRT588',15/03/2020,30)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13FRT588',15/04/2020,30)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13FRT589',16/10/2020,30)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13FRT590',17/10/2020,30)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13FRT590',17/11/2020,30)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13FRT590',17/12/2020,30)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13FRT591',18/10/2020,30)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13FRT592',19/03/2020,30)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13FRT593',20/03/2020,15)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13FRT594',21/03/2020,15)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('21FRT595',22/03/2020,15)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('21FRT595',22/04/2020,15)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('21FRT595',22/05/2020,15)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('21FRT596',11/07/2020,15)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('21FRT597',12/07/2020,15)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('21FRT597',12/08/2020,15)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('21FRT598',13/07/2020,15)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('21FRT599',12/07/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('21FRT600',17/10/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('21FRT600',17/11/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('21FRT600',17/12/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('21FRT601',16/07/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13CDT602',17/07/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13CDT602',17/08/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13CDT602',17/09/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13CDT602',17/10/2020,20)
+
+INSERT INTO PAGAMENTO (codAbbonamento, dataPagamento, importo)
+VALUES ('13CDT602',17/11/2020,20)

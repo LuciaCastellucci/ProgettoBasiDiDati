@@ -1,0 +1,272 @@
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('AssuntaRubini','Assunta')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('AssuntaRubini','Maria')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('AssuntaRubini','Chiara')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GiuliaLetiziaNorbiato','Giulia')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('EttoreDomenici','Ettore')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('EttoreDomenici','Riccardo')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('EttoreDomenici','Claudio')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('EttoreDomenici','Giulia')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('EttoreDomenici','Lucia')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('JavisDoparconi','Javis')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('JavisDoparconi','Simone')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('CarolinaSanzani','Carolina')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('CarolinaSanzani','Camilla')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('CarolinaSanzani','Chiara')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('KevinBizzuti','Simone')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('KevinBizzuti','Andrea')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('KevinBizzuti','Riccardo')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GiadaBitossi','Giada')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GiadaBitossi','Lucia')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GiadaBitossi','Sofia')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GiadaBitossi','Chiara')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('SigfridoPraxiolu','Sigfrido')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GyllesBiscaro','Gyless')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GyllesBiscaro','Ryan')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('FrancescoGelmini','Francesco')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('FrancescoGelmini','Gianluca')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('FrancescoGelmini','Sofia')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('JuryCotugno','Jury')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('JuryCotugno','Viola')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('ZaraFederici','Zara')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('ZaraFederici','Margherita')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('ZaraFederici','Sofia')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('NickBelfiori','Nick')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('NickBelfiori','Andrea')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('RyanVincenzi','Ryan')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('RyanVincenzi','Marco')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('XavierDiIacono','Xavier')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('XavierDiIacono','Mirko')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('PaoloManfredi','Paolo')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('PaoloManfredi','Nicola')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('PaoloManfredi','Tommaso')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('PaoloManfredi','Michele')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('PaoloManfredi','Carlo')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('FrankZanchi','Frank')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('MicheleTatiani','Michele')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('MicheleTatiani','Andrea')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('MicheleTatiani','Marco')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('BarbaraNevi','Barbara')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('BarbaraNevi','Elena')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('HelenaBoccalupo','Helena')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('RiccardoErrico','Riccardo')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('ElenaDelia','Elena')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('ElenaDelia','Chiara')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('ElenaDelia','Mattia')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('ElenaRobertaNucibella','Elena')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('BeatriceNazari','Beatrice')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('BeatriceNazari','Maicol')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente)
+VALUES ('ZenoneVega','Zenone')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('ZenoneVega','Michelle')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('AntoniaRosaMicotti','Antonia')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('DarioAzeglioTabegna','Dario')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('DarioAzeglioTabegna','Eugenio')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('TonyReggio','Tony')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('TonyReggio','Dante')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('DomenicoMondadori','Domenico')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('DomenicoMondadori','Lucia')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('DomenicoMondadori','Camilla')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('DomenicoMondadori','Sofia')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('LuciaCipoletti','Lucia')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) VALUES ('LuciaCipoletti','Paolo')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('LuciaCipoletti','Francesca')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('LuciaCipoletti','Gianluca')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('LuciaCipoletti','Riccardo')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GracePaolaBenvenuti','Grace')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GracePaolaBenvenuti','Morena')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('FrancescoCasanova','Francesco')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('FrancescoCasanova','Oscar')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('KarolMobili','Karol')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('BrunoAntonioZiomi','Bruno')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('BrunoAntonioZiomi','Antonio')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('FlorisRado','Floris')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GiacomoFrassineti','Giacomo')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GiacomoFrassineti','Mario')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GiacomoFrassineti','Chiara')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('OrfeoPioGavotto','Orfeo')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GiorgioLeni','Giorgio')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GiorgioLeni','Giorgia')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GiorgioLeni','Lucio')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GiorgioLeni','Nicola')
+
+INSERT INTO UTENTE (nomeAccount,nomeUtente) 
+VALUES ('GiorgioLeni','Mario')
+
+
+
+

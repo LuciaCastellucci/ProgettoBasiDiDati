@@ -1,0 +1,32 @@
+INSERT INTO SERIE (codiceSerie, titolo, durata)
+VALUES ('TNT01','L Alienista','13:50:00')
+
+INSERT INTO SERIE (codiceSerie, titolo, durata)
+VALUES ('NET01','Lupin','8:00:00')
+
+INSERT INTO SERIE (codiceSerie, titolo, durata)
+VALUES ('BBC01','Sherlock','18:00:00')
+
+INSERT INTO SERIE (codiceSerie, titolo, durata)
+VALUES ('NET02','You','17:00:00')
+
+INSERT INTO SERIE (codiceSerie, titolo, durata)
+VALUES ('NET03','The Hollow','8:20:00')
+
+INSERT INTO SERIE (codiceSerie, titolo, durata)
+VALUES ('BBC02','Peaky Blinders','23:50:00')
+
+INSERT INTO SERIE (codiceSerie, titolo, durata)
+VALUES ('HBO01','The Undoing - Le verità non dette','05:25:00')
+
+INSERT INTO SERIE (codiceSerie, titolo, durata)
+VALUES ('CBS01','Scooby-Doo, dove sei tu?','12:30:00')
+
+INSERT INTO SERIE (codiceSerie, titolo, durata)
+VALUES ('BBC03','Bodyguard','6:00:00')
+
+INSERT INTO SERIE (codiceSerie, titolo, durata)
+VALUES ('AMZ01','Panic','6:40:00')
+
+INSERT INTO SERIE (codiceSerie, titolo, durata)
+VALUES ('PAR01','Emily in Paris','5:00:00')

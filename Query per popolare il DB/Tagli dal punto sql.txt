@@ -1,0 +1,42 @@
+-- Constraints Section
+-- ___________________ 
+
+
+alter table FILM  add constraint IDPRODUZIONE_CHK
+     check(exists(select * from partecipare_film
+                  where partecipare_film.codFilm = codFilm)); 
+
+alter table FILM  add constraint IDPRODUZIONE_CHK
+     check(exists(select * from distribibuire_film
+                  where distribibuire_film.codFilm = codFilm)); 
+
+alter table FILM  add constraint IDPRODUZIONE_CHK
+     check(exists(select * from appartenere_film
+                  where appartenere_film.codFilm = codFilm)); 
+
+alter table FILM  add constraint IDPRODUZIONE_CHK
+     check(exists(select * from produrre_film
+                  where produrre_film.codFilm = codFilm)); 
+
+alter table EPISODIO add constraint IDPRODUZIONE_CHK
+     check(exists(select * from partecipare_ep
+                  where partecipare_ep.codEpisodio = codEpisodio)); 
+
+alter table EPISODIO add constraint IDPRODUZIONE_CHK
+     check(exists(select * from distribuire_ep
+                  where distribuire_ep.codEpisodio = codEpisodio)); 
+
+alter table EPISODIO add constraint IDPRODUZIONE_CHK
+     check(exists(select * from appartenere_ep
+                  where appartenere_ep.codEpisodio = codEpisodio)); 
+
+alter table EPISODIO add constraint IDPRODUZIONE_CHK
+     check(exists(select * from produrre_ep
+                  where produrre_ep.codEpisodio = codEpisodio)); 
+
+alter table EPISODIO add constraint IDPRODUZIONE_CHK
+     check(exists(select * from STAGIONE
+                  where STAGIONE.codProduzione = codEpisodio)); 
+
+
+

@@ -1,0 +1,114 @@
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('RBNSNT03C57A944V','Assunta Rubini','Via Rossi',25,'00118','Roma','Italia','5164 9901 4875 6633',01/01/2024,'005')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('NRBGLT73L64A432S','Giulia Letizia Norbiato','Via Verdi',26,'47121','Forlì','Italia','5165 9901 4875 6633',15/11/2024,'564')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('HSOTRD72T16C938O','Ettore Domenici','Via Bianchi',27,'20121','Milano','Italia','5166 9901 4875 6633',17/12/2024,'952')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('JVSDPC55S48G932U','Javis Doparconi','Via Neri',28,'80121','Napoli','Italia','5167 9901 4875 6633',01/02/2024,'114')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('KPJKSZ33C22B844K','Carolina Sanzani','Viale Colombo',29,'86039','Termoli','Italia','5168 9901 4875 6633',01/03/2024,'559')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('BPQKZC66C29B929U','Kevin Bizzuti','Viale Vespucci',30,'24121','Bergamo','Italia','5169 9901 4875 6633',01/05/2024,'008')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('BTSGDD28L68C855Y','Giada Bitossi','Viale Bolognesi',31,'25121','Brescia','Italia','5170 9901 4875 6633',21/03/2024,'987')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('PRXSFR78H29F450W','Sigfrido Praxiolu','Viale Roma',32,'10121','Torino','Italia','5171 9901 4875 6633',25/04/2024,'555')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('BSCGYL52S09I417R','Gylles Biscaro','Via Bologna',33,'47521','Cesena','Italia','5172 9901 4875 6633',21/06/2024,'666')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('GKHFOE66B17F118C','Francesco Gelmini','Via Milano',500,'48121','Ravenna','Italia','5173 1854 4875 6633',01/01/2025,'888')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('CTGJYV99L20L731F','Jury Cotugno','Corso Mazzini',501,'47921','Rimini','Italia','5174 9901 4875 6633',10/02/2025,'003')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('FIUZFD44T55F558J','Zara Federici','Via Rossi',502,'47838','Riccione','Italia','5175 9901 4875 6633',01/03/2025,'004')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('NCKBVF41P25I031C','Nick Belfiori','Via Verdi',503,'34121','Trieste','Italia','5176 9901 4875 6633',11/05/2025,'852')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('ZCPRNV55L24F772X','Ryan Vincenzi','Via Bianchi',504,'84121','Salerno','Italia','5177 9901 4875 6633',28/01/2025,'856')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('DCVXVH78M67B021Z','Xavier Di Iacono','Via Neri',505,'00118','Roma','Italia','5178 9901 4875 6633',30/02/2025,'748')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('YRMXXR98A54I356V','Paolo Manfredi','Viale Colombo',506,'47121','Forlì','Italia','5179 8995 4875 6633',17/04/2025,'985')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('FKZTXB85L49F925D','Frank Zanchi','Viale Vespucci',507,'20121','Milano','Italia','5180 9901 4875 6633',21/05/2025,'123')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('TUAHMT93P58Z312M','Michele Tatiani','Viale Bolognesi',508,'80121','Napoli','Italia','5181 1452 4875 6633',01/06/2025,'456')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('NVXKBQ88M21B009G','Barbara Nevi','Viale Roma',509,'86039','Termoli','Italia','5182 9901 4875 6633',18/08/2025,'789')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('HSTBPU50B09H527Q','Helena Boccalupo','Via Bologna',510,'24121','Bergamo','Italia','5183 9901 4875 6633',01/11/2025,'987')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('RRCTCB54D28G282U','Riccardo Errico','Via Emilia',511,'25121','Brescia','Italia','5184 1234 4875 6633',01/04/2025,'654')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('PGWLDL32B57H839L','Elena Delia','Via Liguria',512,'10121','Torino','Italia','5185 9901 4875 6633',28/01/2026,'321')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('NCBLRB66L62F989D','Elena Roberta Nucibella','Via Calabria',47,'00118','Roma','Italia','5186 9901 4875 6633',30/04/2026,'620')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('NHZBFE57P18D945W','Beatrice Nazari','Via Sicilia',48,'47121','Forlì','Italia','5187 9901 4875 6633',15/01/2026,'321')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('VGEZNN91S21G597I','Zenone Vega','Corso Mazzini',49,'20121','Milano','Italia','5188 4567 4875 6633',01/06/2026,'148')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('MCTNNR43A41L873P','Antonia Rosa Micotti','Via Emilia',120,'80121','Napoli','Italia','5189 9901 4875 6633',07/01/2026,'452')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('TBGDZG82D15I217F','Dario Azeglio Tabegna','Via Liguria',51,'86039','Termoli','Italia','5190 9901 4875 6633',10/10/2026,'607')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('RGGTKN91P30B234G','Tony Reggio','Via Calabria',52,'24121','Bergamo','Italia','5191 1478 4875 6633',11/11/2026,'119')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('MWVDHC53P04E830X','Domenico Mondadori','Via Sicilia',53,'25121','Brescia','Italia','5192 9901 4875 6633',12/12/2026,'417')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('CPHLQW59M13I438H','Lucia Cipoletti','Via Rossi',25,'00118','Roma','Italia','5164 9901 4875 6633',01/01/2024,'005')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('BXVGCP44T56E232T','Grace Paola Benvenuti','Via Verdi',26,'47121','Forlì','Italia','5165 9901 4875 6633',15/11/2024,'564')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('CSNFGC47A44L968W','Francesco Casanova','Via Bianchi',27,'24121','Bergamo','Italia','5166 9901 4875 6633',17/12/2024,'952')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('MBCKGK55E16E159C','Karol Mobili','Via Neri',28,'25121','Brescia','Italia','5167 9901 4875 6633',01/02/2024,'114')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('ZMIBNN27R06F473V','Bruno Antonio Ziomi','Viale Colombo',29,'10121','Torino','Italia','5168 9901 4875 6633',01/03/2024,'559')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('RDAFRS70D07L937G','Floris Rado','Viale Vespucci',30,'47521','Cesena','Italia','5169 9901 4875 6633',01/05/2024,'008')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('FKVYNQ63A48C340T','Giacomo Frassineti','Viale Bolognesi',31,'48121','Ravenna','Italia','5170 9901 4875 6633',21/03/2024,'987')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('GVTRFP86A09G800M','Orfeo Pio Gavotto','Viale Roma',32,'47921','Rimini','Italia','5171 9901 4875 6633',25/04/2024,'555')
+
+INSERT INTO TITOLARE_ACCOUNT (CF,nomeAccount,via,numero,cap,città,stato,numero,dataScadenza,cvv)
+VALUES ('XMTGYM89L10B905G','Giorgio Xeni','Via Bologna',33,'47838','Riccione','Italia','5172 9901 4875 6633',21/06/2024,'666')
+

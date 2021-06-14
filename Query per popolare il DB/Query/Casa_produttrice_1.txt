@@ -1,0 +1,4 @@
+INSERT INTO CASA_PRODUTTRICE (codCasaProduttrice,nome,annoFondazione) VALUES ('WDP','Walt Disney Productions',1983)
+INSERT INTO CASA_PRODUTTRICE (codCasaProduttrice,nome,annoFondazione) VALUES ('PARP','Paramount Pictures',1914)
+INSERT INTO CASA_PRODUTTRICE (codCasaProduttrice,nome,annoFondazione) VALUES ('TEMPHE','Temple Hill Entertainment',2006)
+INSERT INTO CASA_PRODUTTRICE (codCasaProduttrice,nome,annoFondazione) VALUES ('MARVST','Marvel Studios',1993)

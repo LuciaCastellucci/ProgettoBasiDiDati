@@ -1,0 +1,113 @@
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('AssuntaRubini','assunta12')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('GiuliaLetiziaNorbiato','giulia38')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('EttoreDomenici','ettore71')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('JavisDoparconi','javis69')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('CarolinaSanzani','carolina11')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('KevinBizzuti','kevin66')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('GiadaBitossi','giada42')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('SigfridoPraxiolu','sigfrido33')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('GyllesBiscaro','gylles88')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('FrancescoGelmini','francesco73')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('JuryCotugno','jury06')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('ZaraFederici','zara24')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('NickBelfiori','nick36')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('RyanVincenzi','ryan33')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('XavierDiIacono','xavier56')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('PaoloManfredi','paolo65')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('FrankZanchi','frank03')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('MicheleTatiani','michele45')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('BarbaraNevi','barbara79')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('HelenaBoccalupo','helena68')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('RiccardoErrico','riccardo09')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('ElenaDelia','elena02')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('ElenaRobertaNucibella','elena38')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('BeatriceNazari','beatrice29')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('ZenoneVega','zenone71')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('AntoniaRosaMicotti','antonia38')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('DarioAzeglioTabegna','dario38')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('TonyReggio','tony01')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('DomenicoMondadori','domenico47')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('LuciaCipoletti','lucia00')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('GracePaolaBenvenuti','grace38')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('FrancescoCasanova','francesco62')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('KarolMobili','karol22')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('BrunoAntonioZiomi','bruno38')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('FlorisRado','floris66')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('GiacomoFrassineti','giacomo73')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('OrfeoPioGavotto','orfeo38')
+
+INSERT INTO TITOLARE_ACCOUNT (nomeAccount,password)
+VALUES ('GiorgioLeni','giorgio45')

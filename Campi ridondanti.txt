@@ -1,0 +1,5 @@
+I campi ridondanti sono:
+-	Durata in SERIE (interrogazione nr 5c + interrogazione 9)
+-	Importo PAGAMENTO rispetto a prezzo ABBONAMENTO (interrogazione 6)
+-	Durata in STAGIONE (non ci sono interrogazioni)
+-	Minuti restanti in VISIONE (non ci sono interrogazioni)

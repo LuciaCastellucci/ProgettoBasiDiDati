@@ -1,0 +1,23 @@
+1) Admin vede le visioni “in tempo reale” quindi vede più in alto la più recente, in base all ora di inizio, fino a visioni iniziate ad esempio 6h prima
+2) Migliori utenti del mese Admin vede I 10 utenti che hanno passato più tempo sulla piattaforma dall’inizio del mese
+3) Più guardate del mese/anno Admin vede  I 10 film e le serie più visti della settimana
+4) Statistiche utenti: 
+-	Admin vede il numero medio di utenti per ogni titolare account
+-	Numero totale di account
+-	Tempo medio al giorno degli utenti sulla piattaforma
+-	Orario di punta delle visione
+5) Statistiche produzioni:
+-	Durata media episodio
+-	Durata media film
+-	Serie più lunghe sulla piattaforma
+6) Statistiche economiche:
+-	Incasso annuale
+-	Incasso mensile
+-	Nr iscrizioni di questo mese
+-	Prox dieci che devono pagare
+-	Storico dieci che hanno pagato
+-	Giorno del mese con più incasso
+7) Lista di account che temiamo possano disdire (inutilizzati da più di un tot)
+8) Produzioni meno gradite (potrebbero essere quelle mai iniziate o quelle iniziate e non terminate) AGGIUNGI LI L’ELIMINAZIONE DELLE PRODUZIONI
+9) Admin inserisce/toglie produzioni/utenti etc...
+10) Admin vede genere/attore/casa.. Più visti ?????????????????

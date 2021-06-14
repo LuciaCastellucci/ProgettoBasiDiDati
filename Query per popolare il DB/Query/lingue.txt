@@ -1,0 +1,29 @@
+INSERT INTO LINGUA (codLingua, lingua)
+VALUES('IT','Italiano')
+
+INSERT INTO LINGUA (codLingua, lingua)
+VALUES('FR','Francese')
+
+INSERT INTO LINGUA (codLingua, lingua)
+VALUES('EN','Inglese')
+
+INSERT INTO LINGUA (codLingua, lingua)
+VALUES('SP','Spagna')
+
+INSERT INTO LINGUA (codLingua, lingua)
+VALUES('RUS','Russo')
+
+INSERT INTO LINGUA (codLingua, lingua)
+VALUES('TED','Tedesco')
+
+INSERT INTO LINGUA (codLingua, lingua)
+VALUES('CIN','Cinese')
+
+INSERT INTO LINGUA (codLingua, lingua)
+VALUES('GIP','Giapponese')
+
+INSERT INTO LINGUA (codLingua, lingua)
+VALUES('AR','Arabo')
+
+INSERT INTO LINGUA (codLingua, lingua)
+VALUES('TUR','Turco')

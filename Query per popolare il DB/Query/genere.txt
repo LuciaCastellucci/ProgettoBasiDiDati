@@ -1,0 +1,38 @@
+INSERT INTO GENERE (codGenere, descrizione)
+VALUES ('COM','Commedia')
+
+INSERT INTO GENERE (codGenere, descrizione)
+VALUES ('THR','Thriller')
+
+INSERT INTO GENERE (codGenere, descrizione)
+VALUES ('AZN','Azione')
+
+INSERT INTO GENERE (codGenere, descrizione)
+VALUES ('HRR','Horror')
+
+INSERT INTO GENERE (codGenere, descrizione)
+VALUES ('ROM','Romantico')
+
+INSERT INTO GENERE (codGenere, descrizione)
+VALUES ('GLL','Giallo')
+
+INSERT INTO GENERE (codGenere, descrizione)
+VALUES ('DRM','Drammatico')
+
+INSERT INTO GENERE (codGenere, descrizione)
+VALUES ('BIO','Biografico')
+
+INSERT INTO GENERE (codGenere, descrizione)
+VALUES ('FSC','Fantascienza')
+
+INSERT INTO GENERE (codGenere, descrizione)
+VALUES ('FAN','Fantasy')
+
+INSERT INTO GENERE (codGenere, descrizione)
+VALUES ('ANM','Animazione')
+
+INSERT INTO GENERE (codGenere, descrizione)
+VALUES ('MUS','Musical')
+
+INSERT INTO GENERE (codGenere, descrizione)
+VALUES ('AVV','Avventura')

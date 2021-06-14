@@ -1,0 +1,30 @@
+INSERT INTO CASA_PRODUTTRICE (codCasaProduttrice, nome, annoFondazione)
+VALUES ('ANC','Anonymous Content', 1999)
+
+INSERT INTO CASA_PRODUTTRICE (codCasaProduttrice, nome, annoFondazione)
+VALUES ('GAU','Gaumont',1895)
+
+INSERT INTO CASA_PRODUTTRICE (codCasaProduttrice, nome, annoFondazione)
+VALUES ('WB','Warner Bros', 1955)
+
+INSERT INTO CASA_PRODUTTRICE (codCasaProduttrice, nome, annoFondazione)
+VALUES ('BBC','BBC Wales', 1964)
+
+INSERT INTO CASA_PRODUTTRICE (codCasaProduttrice, nome, annoFondazione)
+VALUES ('NTX','Netflix', 1997)
+
+INSERT INTO CASA_PRODUTTRICE (codCasaProduttrice, nome, annoFondazione)
+VALUES ('CMP','Caryn Mandabach Productions', 2000)
+
+INSERT INTO CASA_PRODUTTRICE (codCasaProduttrice, nome, annoFondazione)
+VALUES ('BLS','Blossom Films',2010)
+
+INSERT INTO CASA_PRODUTTRICE (codCasaProduttrice, nome, annoFondazione)
+VALUES ('WP','World Productions',1990)
+
+INSERT INTO CASA_PRODUTTRICE (codCasaProduttrice, nome, annoFondazione)
+VALUES ('AMZS','Amazon Studios',2010)
+
+INSERT INTO CASA_PRODUTTRICE (codCasaProduttrice, nome, annoFondazione)
+VALUES ('MTV','MTV Studios',2000)
+

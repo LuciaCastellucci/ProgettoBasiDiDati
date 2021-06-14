@@ -1,0 +1,122 @@
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT01','Dakota','Fanning',1,0,'Sara Howard')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT02','Luke','Evans',1,0,'John Moore')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT03','Daniel','Bruhl',1,0,'Lazlo Kreizler')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT04','Omar','Sy',1,0,'Assane Diop')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT05','Anne','Benoit',1,0,'Fabienne Beriot')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT06','Soufiane','Guerrab',1,0,'Youssef Guedira')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT07','Benedict','Cumberbatch',1,0,'Sherlock Holmes')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT08','Martin','Freeman',1,0,'John Watson')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT09','Mark','Gatiss',1,0,'Mycroft Holmes')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT10','Penn','Badgley',1,0,'Joe Goldberg')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT11','Elizabeth','Lail',1,0,'Guinever Beck')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT12','Victoria','Pedretti',1,0,'Love Quinn')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT13','Ashleigh','Ball',1,0,'Mira')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT14','Connor','Parnall',1,0,'Kai')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT15','Adrian','Petriw',1,0,'Adam')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT16','Cillian','Murphy',1,0,'Thomas Shelby')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT17','Paul','Anderson',1,0,'Arthur Shelby')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT18','Hellen','McCrory',1,0,'Polly Shelby')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT19','Nicole','Kidman',1,0,'Grace Fraser')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT20','Hugh','Grant',1,0,'Jonathan Fraser')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT21','Matilda','De Angelis',1,0,'Elena Alves')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT22','Casey','Kasem',1,0,'Shaggy Rogers')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT23','Don','Messick',1,0,'Scooby-Doo')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT24','Richard','Madden',1,0,'David Budd')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT25','Keeley','Hawes',1,0,'Julia Montague')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT26','Olivia','Welch',1,0,'Heather')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT27','Ray','Nicholson',1,0,'Ray Hall')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT28','Jessica','Sula',1,0,'Natalie Williams')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT29','Lily','Collins',1,0,'Emily Cooper')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista, nomePersonaggio)
+VALUES ('ATT30','Lucas','Bravo',1,0,'Gabriel')
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista)
+VALUES ('REG01','Jakob','Verbruggen',0,1)
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista)
+VALUES ('REG02','Louis','Leterrier',0,1)
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista)
+VALUES ('REG03','Greg','Berlanti',0,1)
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista)
+VALUES ('REG04','Paul','McGuigan',0,1)
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista)
+VALUES ('REG05','Vito','Viscomi',0,1)
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista)
+VALUES ('REG06','David','Caffret',0,1)
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista)
+VALUES ('REG07','Susanne','Bier',0,1)
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista)
+VALUES ('REG08','Joseph','Barbera',0,1)
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista)
+VALUES ('REG09','Thomas','Vincent',0,1)
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista)
+VALUES ('REG10','Ry','Russo-Young',0,1)
+
+INSERT INTO CAST (codArtista, nome, cognome, attore, regista)
+VALUES ('REG11','Andrew','Fleming',0,1)
