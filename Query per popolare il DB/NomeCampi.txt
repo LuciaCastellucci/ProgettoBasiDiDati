@@ -14,10 +14,10 @@ FATTO - distribuire_film: codLingua, codFilm
 FATTO - distribuire_ep: codLingua, codEpisodio
 FATTO - produrre_ep: codCasaProduttrice, codEpisodio
 FATTO - produrre_film: codCasaProduttrice, codFilm
-appartenere_film: codGenere, codFilm
+FATTO - appartenere_film: codGenere, codFilm
 partecipare_ep: codArtista, codEpisodio
-partecipare_film: codArtista, codFilm
-CAST: codArtista, nome, cognome, attore, regista, nomePersonaggio
+FATTO - partecipare_film: codArtista, codFilm
+FATTO - CAST: codArtista, nome, cognome, attore, regista, nomePersonaggio
 VISIONE: nomeAccount, nomeUtente, data, ora, minutoArrivo, minutiMancanti, codEpisodio, codFilm 
 
 
