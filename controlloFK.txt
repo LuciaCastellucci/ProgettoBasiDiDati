@@ -15,7 +15,7 @@ alter table appartenere_ep add constraint FKapp_GEN
 
 alter table appartenere_film add constraint FKapp_FIL
      foreign key (codFilm)
-     references FILM ;
+     references FILM;
 
 alter table appartenere_film add constraint FKapp_GEN
      foreign key (codGenere)
@@ -23,7 +23,7 @@ alter table appartenere_film add constraint FKapp_GEN
 
 alter table distribibuire_film add constraint FKdis_FIL
      foreign key (codFilm)
-     references FILM ;
+     references FILM;
 
 alter table distribibuire_film add constraint FKdis_LIN
      foreign key (codLingua)
@@ -59,7 +59,7 @@ alter table partecipare_film add constraint FKpar_CAS
 
 alter table partecipare_film add constraint FKpar_FIL
      foreign key (codFilm)
-     references FILM ;
+     references FILM;
 
 alter table produrre_ep add constraint FKpro_EPI
      foreign key (codEpisodio)
@@ -71,7 +71,7 @@ alter table produrre_ep add constraint FKpro_CAS
 
 alter table produrre_film add constraint FKpro_FIL
      foreign key (codFilm)
-     references FILM ;
+     references FILM;
 
 alter table produrre_film add constraint FKpro_CAS
      foreign key (codCasaProduttrice)
@@ -99,4 +99,4 @@ alter table VISIONE add constraint FKvisionare_ep
 
 alter table VISIONE add constraint FKvisionare_f
      foreign key (codFilm)
-     references FILM ;
+     references FILM;
