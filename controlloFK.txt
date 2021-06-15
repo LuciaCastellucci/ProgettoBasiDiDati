@@ -1,0 +1,102 @@
+-- Constraints Section
+-- ___________________ 
+
+alter table ABBONAMENTO add constraint FKsottoscrivere
+     foreign key (CF)
+     references TITOLARE_ACCOUNT;
+
+alter table appartenere_ep add constraint FKapp_EPI
+     foreign key (codEpisodio)
+     references EPISODIO;
+
+alter table appartenere_ep add constraint FKapp_GEN
+     foreign key (codGenere)
+     references GENERE;
+
+alter table appartenere_film add constraint FKapp_FIL
+     foreign key (codFilm)
+     references FILM ;
+
+alter table appartenere_film add constraint FKapp_GEN
+     foreign key (codGenere)
+     references GENERE;
+
+alter table distribibuire_film add constraint FKdis_FIL
+     foreign key (codFilm)
+     references FILM ;
+
+alter table distribibuire_film add constraint FKdis_LIN
+     foreign key (codLingua)
+     references LINGUA;
+
+alter table distribuire_ep add constraint FKdis_EPI
+     foreign key (codEpisodio)
+     references EPISODIO;
+
+alter table distribuire_ep add constraint FKdis_LIN
+     foreign key (codLingua)
+     references LINGUA;
+
+alter table EPISODIO add constraint FKR
+     foreign key (codiceSerie, numeroStagione)
+     references STAGIONE;
+
+alter table PAGAMENTI add constraint FKrelativo
+     foreign key (codAbbonamento)
+     references ABBONAMENTO;
+
+alter table partecipare_ep add constraint FKpar_EPI
+     foreign key (codEpisodio)
+     references EPISODIO;
+
+alter table partecipare_ep add constraint FKpar_CAS
+     foreign key (codArtista)
+     references CAST;
+
+alter table partecipare_film add constraint FKpar_CAS
+     foreign key (codArtista)
+     references CAST;
+
+alter table partecipare_film add constraint FKpar_FIL
+     foreign key (codFilm)
+     references FILM ;
+
+alter table produrre_ep add constraint FKpro_EPI
+     foreign key (codEpisodio)
+     references EPISODIO;
+
+alter table produrre_ep add constraint FKpro_CAS
+     foreign key (codCasaProduttrice)
+     references CASA_PRODUTTRICE;
+
+alter table produrre_film add constraint FKpro_FIL
+     foreign key (codFilm)
+     references FILM ;
+
+alter table produrre_film add constraint FKpro_CAS
+     foreign key (codCasaProduttrice)
+     references CASA_PRODUTTRICE;
+
+alter table STAGIONE add constraint FKdividere
+     foreign key (codiceSerie)
+     references SERIE;
+
+alter table TITOLARE_ACCOUNT add constraint FKpossedere_FK
+     foreign key (nomeAccount)
+     references ACCOUNT;
+
+alter table UTENTE add constraint FKaccedere
+     foreign key (nomeAccount)
+     references ACCOUNT;
+
+alter table VISIONE add constraint FKguardare
+     foreign key (nomeAccount, nomeUtente)
+     references UTENTE;
+
+alter table VISIONE add constraint FKvisionare_ep
+     foreign key (codEpisodio)
+     references EPISODIO;
+
+alter table VISIONE add constraint FKvisionare_f
+     foreign key (codFilm)
+     references FILM ;
