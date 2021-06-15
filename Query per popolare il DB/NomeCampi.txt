@@ -1,13 +1,15 @@
 NOME CAMPI:
-FATTO - ACCOUNT: nomeAccount, password
-FATTO - CASA_PRODUTTRICE: codCasaProduttrice, nome, dataFondazione
-FATTO - EPISODIO: cidEpisodio, titolo, dataUscita, durataComplessiva, vistoCensura, numero
-FATTO - FILM: codFilm, titolo, dataUscita, durataComplessiva, vistoCensura
+inserito - ACCOUNT: nomeAccount, password
+inserito - CASA_PRODUTTRICE: codCasaProduttrice, nome, dataFondazione
+inserito - EPISODIO: cidEpisodio, titolo, dataUscita, durataComplessiva, vistoCensura, numero
+inserito - FILM: codFilm, titolo, dataUscita, durataComplessiva, vistoCensura
+inserito - ABBONAMENTO: 
+inserito - TITOLARE ACCOUNT:
+inserito - SERIE: codiceSerie, titolo, durata
+inserito - STAGIONE: codiceSerie, numeroStagione, codProduzione, durata
 FATTO - GENERE: codGenere, descrizione
 FATTO - LINGUA: codLingua, lingua
 FATTO - PAGAMENTI: codAbbonamento, dataPagamento, importo
-FATTO - SERIE: codiceSerie, titolo, durata
-FATTO - STAGIONE: codiceSerie, numeroStagione, codProduzione, durata
 FATTO - UTENTE: nomeAccount, nomeUtente
 FATTO - appartenere_ep: codGenere, codEpisodio
 FATTO - distribuire_film: codLingua, codFilm
