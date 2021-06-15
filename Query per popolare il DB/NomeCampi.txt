@@ -1,24 +1,26 @@
 NOME CAMPI:
 FATTO - ACCOUNT: nomeAccount, password
-CASA_PRODUTTRICE: codCasaProduttrice, nome, dataFondazione
-CAST: codArtista, nome, cognome, attore, regista, nomePersonaggio
-EPISODIO: cidEpisodio, titolo, dataUscita, durataComplessiva, vistoCensura, numero
+FATTO - CASA_PRODUTTRICE: codCasaProduttrice, nome, dataFondazione
+FATTO - EPISODIO: cidEpisodio, titolo, dataUscita, durataComplessiva, vistoCensura, numero
 FATTO - FILM: codFilm, titolo, dataUscita, durataComplessiva, vistoCensura
-GENERE: codGenere, descrizione
-LINGUA: codLingua, lingua
+FATTO - GENERE: codGenere, descrizione
+FATTO - LINGUA: codLingua, lingua
 FATTO - PAGAMENTI: codAbbonamento, dataPagamento, importo
 FATTO - SERIE: codiceSerie, titolo, durata
-STAGIONE: codiceSerie, numeroStagione, codProduzione, durata
+FATTO - STAGIONE: codiceSerie, numeroStagione, codProduzione, durata
 FATTO - UTENTE: nomeAccount, nomeUtente
-VISIONE: nomeAccount, nomeUtente, data, ora, minutoArrivo, minutiMancanti, codEpisodio, codFilm
-appartenere_ep: codGenere, codEpisodio
+FATTO - appartenere_ep: codGenere, codEpisodio
+FATTO - distribuire_film: codLingua, codFilm
+FATTO - distribuire_ep: codLingua, codEpisodio
+FATTO - produrre_ep: codCasaProduttrice, codEpisodio
+FATTO - produrre_film: codCasaProduttrice, codFilm
 appartenere_film: codGenere, codFilm
-distribuire_film: codLingua, codFilm
-distribuire_ep: codLingua, codEpisodio
 partecipare_ep: codArtista, codEpisodio
 partecipare_film: codArtista, codFilm
-produrre_ep: codCasaProduttrice, codEpisodio
-produrre_film: codCasaProduttrice, codFilm
+CAST: codArtista, nome, cognome, attore, regista, nomePersonaggio
+VISIONE: nomeAccount, nomeUtente, data, ora, minutoArrivo, minutiMancanti, codEpisodio, codFilm
+
+
 
 
 
