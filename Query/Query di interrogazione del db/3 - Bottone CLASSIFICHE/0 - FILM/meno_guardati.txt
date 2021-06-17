@@ -2,5 +2,5 @@ SELECT FILM.titolo, FILM.dataUscita, FILM.durataComplessiva, FILM.vistoCensura, 
 FROM FILM, VISIONE
 WHERE VISIONE.codFilm=FILM.codFilm
 GROUP BY FILM.titolo
-ORDER BY NumeroVisioni DESC
+ORDER BY NumeroVisioni
 LIMIT 10

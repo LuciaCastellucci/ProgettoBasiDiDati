@@ -1,0 +1,8 @@
+SELECT SERIE.titolo, COUNT(SERIE.titolo) AS "NumeroVisioni"
+FROM SERIE, STAGIONE, EPISODIO, VISIONE
+WHERE STAGIONE.codSerie=SERIE.codSerie
+AND EPISODIO.numeroStagione=STAGIONE.numeroStagione
+AND VISIONE.codEpisodio=EPISODIO.codEpisodio
+GROUP BY SERIE.titolo
+ORDER BY NumeroVisioni DESC
+LIMIT 5
