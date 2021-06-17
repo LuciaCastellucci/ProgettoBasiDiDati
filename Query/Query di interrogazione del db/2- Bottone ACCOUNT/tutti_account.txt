@@ -1,0 +1,3 @@
+SELECT nomeAccount, nomeUtente
+FROM Utente
+ORDER BY nomeAccount

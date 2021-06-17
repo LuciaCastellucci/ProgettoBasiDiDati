@@ -1,0 +1,5 @@
+SELECT titolo, Episodio.dataUscita, Episodio.durataComplessiva, Episodio.vistoCensura, Episodio.numero, Stagione.numeroStagione, Serie.titolo 
+FROM Episodio, Stagione, Serie
+WHERE Episodio.numeroStagione=Stagione.numeroStagione
+AND Stagione.codSerie=Serie.codSerie
+ORDER BY Serie.titolo, Stagione.numeroStagione
