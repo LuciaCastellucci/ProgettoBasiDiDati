@@ -1,0 +1,6 @@
+SELECT FILM.titolo, FILM.dataUscita, FILM.durataComplessiva, FILM.vistoCensura, COUNT(FILM.titolo) AS "NumeroVisioni"
+FROM FILM, VISIONE
+WHERE VISIONE.codFilm=FILM.codFilm
+GROUP BY FILM.titolo
+ORDER BY NumeroVisioni DESC
+LIMIT 10

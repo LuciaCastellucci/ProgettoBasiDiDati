@@ -1,0 +1,9 @@
+SELECT CAST.nome, CAST.cognome, COUNT(CAST.nome) AS "NumeroVisioni"
+FROM partecipare_film, partecipare_episodio, VISIONE
+WHERE partecipare_film.codFilm=VISIONE.codFilm
+AND partecipare_film.codCasaProduttrice=CASA_PRODUTTRICE.codCasaProduttrice
+AND partecipare_episodio.codEpisodio=visione.codEpisodio
+AND partecipare_film.codCasaProduttrice=CASA_PRODUTTRICE.codCasaProduttrice
+GROUP BY CASA_PRODUTTRICE.nome
+ORDER BY NumeroVisioni DESC
+LIMIT 5

@@ -1,0 +1,10 @@
+SELECT CASA_PRODUTTRICE.nome, COUNT(CASA_PRODUTTRICE.titolo) AS "NumeroVisioni"
+FROM produrre_film, produrre_episodio, VISIONE, CASA_PRODUTTRICE
+WHERE produrre_film.codFilm=VISIONE.codFilm
+AND produrre_film.codCasaProduttrice=CASA_PRODUTTRICE.codCasaProduttrice
+AND produrre.film.codFilm=VISIONE.codFilm
+AND produrre_episodio.codCasaProduttrice=CASA_PRODUTTRICE.codCasaProduttrice
+AND produrre_episodio.codEpisodio=VISIONE.codEpisodio
+GROUP BY CASA_PRODUTTRICE.nome
+ORDER BY NumeroVisioni DESC
+LIMIT 5

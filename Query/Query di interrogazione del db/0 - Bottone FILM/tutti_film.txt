@@ -1,0 +1,3 @@
+SELECT titolo, dataUscita, durataComplessiva, vistoCensura
+FROM FILM
+ORDER BY Titolo
