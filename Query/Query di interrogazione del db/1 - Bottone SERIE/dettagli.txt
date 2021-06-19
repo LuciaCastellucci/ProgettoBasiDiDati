@@ -1,0 +1,10 @@
+from ser in db.SERIEs
+from ep in db.EPISODIOs
+where ser.titolo == dettagliBox.Text && e.codSerie == ser.codSerie
+group ser by ser.codSerie into x
+select new { 
+	x.key.titolo,
+	numeroStagioni = x.key.numeroStagione.Count(),
+	numeroEpisodi = x.key.codEpisodio.Count(),
+	
+		};

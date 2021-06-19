@@ -1,7 +1,7 @@
 NOME CAMPI:
 inserito - ACCOUNT: nomeAccount, password
 inserito - CASA_PRODUTTRICE: codCasaProduttrice, nome, dataFondazione
-inserito - EPISODIO: cidEpisodio, titolo, dataUscita, durataComplessiva, vistoCensura, numero
+inserito - EPISODIO: codEpisodio, titolo, dataUscita, durataComplessiva, vistoCensura, numero
 inserito - FILM: codFilm, titolo, dataUscita, durataComplessiva, vistoCensura
 inserito - ABBONAMENTO: 
 inserito - TITOLARE ACCOUNT:

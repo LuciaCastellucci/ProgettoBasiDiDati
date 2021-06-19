@@ -1,6 +1,8 @@
-SELECT FILM.titolo, FILM.dataUscita, FILM.durataComplessiva, FILM.vistoCensura, COUNT(FILM.titolo) AS "NumeroVisioni"
-FROM FILM, VISIONE
-WHERE VISIONE.codFilm=FILM.codFilm
-GROUP BY FILM.titolo
-ORDER BY NumeroVisioni
-LIMIT 10
+(from v in db.VISIONEs
+from f in db.FILMs
+where v.codFilm == f.codFilm
+group f by new {f.codFilm, f.titolo} into x
+select new {
+	x.key.titolo,
+	numeroVisioni = ((x.key.codFilm).Count()).OrderByDescending()
+	};).Take(10)

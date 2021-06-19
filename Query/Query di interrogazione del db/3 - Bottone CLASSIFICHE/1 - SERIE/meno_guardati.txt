@@ -1,8 +1,9 @@
-SELECT SERIE.titolo, COUNT(SERIE.titolo) AS "NumeroVisioni"
-FROM SERIE, STAGIONE, EPISODIO, VISIONE
-WHERE STAGIONE.codSerie=SERIE.codSerie
-AND EPISODIO.numeroStagione=STAGIONE.numeroStagione
-AND VISIONE.codEpisodio=EPISODIO.codEpisodio
-GROUP BY SERIE.titolo
-ORDER BY NumeroVisioni
-LIMIT 5
+(from v in db.VISIONEs
+from s in db.SERIEs
+from ep in db.EPISODIOs
+where v.codEpisodio == ep.codEpisodio && ep.codiceserie == s.codiceSerie
+group f by new {s.codiceSerie, s.titolo} into x
+select new {
+	x.key.titolo,
+	numeroVisioni = ((x.key.codSerie).Count()).OrderByDescending()
+	};).Take(5)

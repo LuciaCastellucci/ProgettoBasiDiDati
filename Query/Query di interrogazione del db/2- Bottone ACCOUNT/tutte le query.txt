@@ -1,0 +1,10 @@
+from u in db.UTENTEs
+select u
+
+from u in db.UTENTEs
+where u.nomeUtente == utenteBox.text
+select u
+
+from u in db.UTENTEs
+where u.nomeAccount == accountBox.text
+select u

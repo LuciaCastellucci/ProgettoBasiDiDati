@@ -1,0 +1,7 @@
+from ser in db.SERIEs
+from e in db.EPISODIOs
+from g in db.GENEREs
+from a in db.appartenere_episodios
+where g.descrizione == genereBox.Text && a.codGenere == g.codGenere && a.codEpisodio == e.codEpisodio && e.codSerie == ser.codSerie
+group 
+select e;
