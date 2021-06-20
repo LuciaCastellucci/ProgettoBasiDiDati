@@ -1,0 +1,241 @@
+create table ABBONAMENTO (
+     codAbbonamento varchar(255) not null,
+     dataInizio date not null,
+     prezzo float not null,
+     CF varchar(255) not null,
+     constraint IDABBONAMENTO primary key (codAbbonamento));
+
+alter table ABBONAMENTO add constraint FKsottoscrivere
+     foreign key (CF)
+     references TITOLARE_ACCOUNT;
+
+create table ACCOUNT (
+     nomeAccount varchar(255) not null,
+     password varchar(255) not null,
+     constraint IDACCOUNT primary key (nomeAccount));
+
+create table appartenere_ep (
+     codGenere varchar(255) not null,
+     codEpisodio varchar(255) not null,
+     constraint IDappartenere_ep primary key (codEpisodio, codGenere));
+
+alter table appartenere_ep add constraint FKapp_EPI
+     foreign key (codEpisodio)
+     references EPISODIO;
+
+alter table appartenere_ep add constraint FKapp_GEN
+     foreign key (codGenere)
+     references GENERE;
+
+create table appartenere_film (
+     codGenere varchar(255) not null,
+     codFilm varchar(255) not null,
+     constraint IDappartenere_film primary key (codFilm, codGenere));
+
+alter table appartenere_film add constraint FKapp_FIL
+     foreign key (codFilm)
+     references FILM;
+
+alter table appartenere_film add constraint FKapp_GEN
+     foreign key (codGenere)
+     references GENERE;
+
+create table CASA_PRODUTTRICE (
+     codCasaProduttrice varchar(255) not null,
+     nome varchar(255) not null,
+     annoFondazione int not null,
+     constraint IDCASA_PRODUTTRICE primary key (codCasaProduttrice));
+
+create table CAST (
+     codArtista varchar(255) not null,
+     nome varchar(255) not null,
+     cognome varchar(255) not null,
+     attore char not null,
+     regista char not null,
+     nomePersonaggio varchar(255),
+     constraint IDCAST primary key (codArtista));
+
+create table distribibuire_film (
+     codLingua varchar(255) not null,
+     codFilm varchar(255) not null,
+     constraint IDdistribibuire_film primary key (codFilm, codLingua));
+
+alter table distribibuire_film add constraint FKdis_FIL
+     foreign key (codFilm)
+     references FILM;
+
+alter table distribibuire_film add constraint FKdis_LIN
+     foreign key (codLingua)
+     references LINGUA;
+
+create table distribuire_ep (
+     codLingua varchar(255) not null,
+     codEpisodio varchar(255) not null,
+     constraint IDdistribuire_ep primary key (codEpisodio, codLingua));
+
+alter table distribuire_ep add constraint FKdis_EPI
+     foreign key (codEpisodio)
+     references EPISODIO;
+
+alter table distribuire_ep add constraint FKdis_LIN
+     foreign key (codLingua)
+     references LINGUA;
+
+create table EPISODIO (
+     codEpisodio varchar(255) not null,
+     titolo varchar(255) not null,     
+     durataComplessiva time not null,
+     vistoCensura varchar(255) not null,
+     numero int not null,
+	 annoUscita int not null,
+     codiceSerie varchar(255) not null,
+     numeroStagione int not null,	 
+     constraint IDEPISODIO_ID primary key (codEpisodio));
+
+alter table EPISODIO add constraint FKR
+     foreign key (codiceSerie, numeroStagione)
+     references STAGIONE;
+
+
+create table FILM (
+     codFilm varchar(255) not null,
+     titolo varchar(255) not null,     
+     durataComplessiva time not null,
+     vistoCensura varchar(255) not null,
+	 annoUscita int not null,
+     constraint IDFILM_ID primary key (codFilm));
+
+create table GENERE (
+     codGenere varchar(255) not null,
+     descrizione varchar(255) not null,
+     constraint IDGENERE primary key (codGenere));
+
+create table LINGUA (
+     codLingua varchar(255) not null,
+     lingua varchar(255) not null,
+     constraint IDLINGUA primary key (codLingua));
+
+create table PAGAMENTO (
+     codAbbonamento varchar(255) not null,
+     dataPagamento date not null,
+     importo float not null,
+     constraint IDPAGAMENTO primary key (codAbbonamento, dataPagamento));
+
+alter table PAGAMENTO add constraint FKrelativo
+     foreign key (codAbbonamento)
+     references ABBONAMENTO;
+
+create table partecipare_ep (
+     codArtista varchar(255) not null,
+     codEpisodio varchar(255) not null,
+     constraint IDpartecipare_ep primary key (codEpisodio, codArtista));
+
+alter table partecipare_ep add constraint FKpar_EPI
+     foreign key (codEpisodio)
+     references EPISODIO;
+
+alter table partecipare_ep add constraint FKpar_CAS
+     foreign key (codArtista)
+     references CAST;
+
+create table partecipare_film (
+     codFilm varchar(255) not null,
+     codArtista varchar(255) not null,
+     constraint IDpartecipare_film primary key (codArtista, codFilm));
+
+alter table partecipare_film add constraint FKpar_CAS
+     foreign key (codArtista)
+     references CAST;
+
+alter table partecipare_film add constraint FKpar_FIL
+     foreign key (codFilm)
+     references FILM;
+
+create table produrre_ep (
+     codCasaProduttrice varchar(255) not null,
+     codEpisodio varchar(255) not null,
+     constraint IDprodurre_ep primary key (codCasaProduttrice, codEpisodio));
+
+alter table produrre_ep add constraint FKpro_EPI
+     foreign key (codEpisodio)
+     references EPISODIO;
+
+alter table produrre_ep add constraint FKpro_CAS
+     foreign key (codCasaProduttrice)
+     references CASA_PRODUTTRICE;
+
+create table produrre_film (
+     codCasaProduttrice varchar(255) not null,
+     codFilm varchar(255) not null,
+     constraint IDprodurre_film primary key (codFilm, codCasaProduttrice));
+
+alter table produrre_film add constraint FKpro_FIL
+     foreign key (codFilm)
+     references FILM;
+
+alter table produrre_film add constraint FKpro_CAS
+     foreign key (codCasaProduttrice)
+     references CASA_PRODUTTRICE;
+
+create table SERIE (
+     codiceSerie varchar(255) not null,
+     titolo varchar(255) not null,
+     durata time not null,
+     constraint IDSERIE primary key (codiceSerie));
+
+create table STAGIONE (
+     codiceSerie varchar(255) not null,
+     numeroStagione int not null,
+     constraint IDSTAGIONI primary key (codiceSerie, numeroStagione));
+
+alter table STAGIONE add constraint FKdividere
+     foreign key (codiceSerie)
+     references SERIE;
+
+create table TITOLARE_ACCOUNT (
+     CF varchar(255) not null,
+     nomeAccount varchar(255) not null,
+     indirizzo varchar(300) not null,
+	 città varchar(255) not null,
+     numCartaDiCredito varchar(255) not null,
+     constraint IDTITOLARE_ACCOUNT primary key (CF),
+     constraint FKpossedere_ID unique (nomeAccount));
+
+alter table TITOLARE_ACCOUNT add constraint FKpossedere_FK
+     foreign key (nomeAccount)
+     references ACCOUNT;
+
+create table UTENTE (
+     nomeAccount varchar(255) not null,
+     nomeUtente varchar(255) not null,
+     constraint IDUTENTE primary key (nomeAccount, nomeUtente));
+
+alter table UTENTE add constraint FKaccedere
+     foreign key (nomeAccount)
+     references ACCOUNT;
+
+create table VISIONE (
+     nomeAccount varchar(255) not null,
+     nomeUtente varchar(255) not null,
+     data date not null,
+     ora time not null,
+     minutoArrivo time not null,
+     codEpisodio varchar(255),
+     codFilm varchar(255),
+     constraint IDVISIONE primary key (nomeAccount, nomeUtente, data, ora));
+
+alter table VISIONE add constraint FKguardare
+     foreign key (nomeAccount, nomeUtente)
+     references UTENTE;
+
+alter table VISIONE add constraint FKvisionare_ep
+     foreign key (codEpisodio)
+     references EPISODIO;
+
+alter table VISIONE add constraint FKvisionare_f
+     foreign key (codFilm)
+     references FILM;
+
+
+
+
