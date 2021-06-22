@@ -1,0 +1,172 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C228698E-8115-473B-AF34-8B976D57C200}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>StreaminVideoApplication</RootNamespace>
+    <AssemblyName>StreaminVideoApplication</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classifiche.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Classifiche.Designer.cs">
+      <DependentUpon>Classifiche.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataClassesStreamingVideo.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataClassesStreamingVideo.dbml</DependentUpon>
+    </Compile>
+    <Compile Include="Film.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Film.Designer.cs">
+      <DependentUpon>Film.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Inserimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Inserimento.Designer.cs">
+      <DependentUpon>Inserimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rimuovere.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rimuovere.Designer.cs">
+      <DependentUpon>Rimuovere.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Serie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Serie.Designer.cs">
+      <DependentUpon>Serie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Statistiche.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Statistiche.Designer.cs">
+      <DependentUpon>Statistiche.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utenti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Utenti.Designer.cs">
+      <DependentUpon>Utenti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visioni.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visioni.Designer.cs">
+      <DependentUpon>Visioni.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Classifiche.resx">
+      <DependentUpon>Classifiche.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Film.resx">
+      <DependentUpon>Film.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Inserimento.resx">
+      <DependentUpon>Inserimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Rimuovere.resx">
+      <DependentUpon>Rimuovere.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Serie.resx">
+      <DependentUpon>Serie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Statistiche.resx">
+      <DependentUpon>Statistiche.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Utenti.resx">
+      <DependentUpon>Utenti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visioni.resx">
+      <DependentUpon>Visioni.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="DataClassesStreamingVideo.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>DataClassesStreamingVideo.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="DataClassesStreamingVideo.dbml.layout">
+      <DependentUpon>DataClassesStreamingVideo.dbml</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{3259AA49-8AA1-44D3-9025-A0B520596A8C}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
